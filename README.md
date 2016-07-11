@@ -1,2 +1,2 @@
 # sneakers
-Developing a fancy UI
+Developing a fancy UI using different layouts
