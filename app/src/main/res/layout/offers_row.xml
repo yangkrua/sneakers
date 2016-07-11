@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    app:rowCount="4"
+    app:columnCount="3">
+
+    <!-- Row 1 -->
+    <ImageView
+        android:src="@drawable/ic_remove_circle_outline_black_24dp"/>
+
+    <TextView
+        android:text="Size 8.0/Tubular Doom Primeknit Core Black"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-light"
+        app:layout_columnSpan="2"/>
+
+
+    <!-- Row 2 -->
+    <TextView
+        android:text="S74921"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        app:layout_column="1"
+        app:layout_columnSpan="2"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Row 3 -->
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:src="@drawable/sneakers_200"
+        android:scaleType="fitXY"
+        app:layout_gravity="center_vertical"/>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        layout="@layout/top_offer"/>
+
+    <TextView
+        android:text="OFFER"
+        android:textColor="@android:color/white"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/offer_shape"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        app:layout_gravity="center_vertical"/>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_column="1"
+        layout="@layout/last_sale"/>
+
+</android.support.v7.widget.GridLayout>
