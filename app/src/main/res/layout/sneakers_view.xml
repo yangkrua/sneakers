@@ -4,6 +4,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.somsak.sneakers.SneakersView">
 
-    <include layout="@layout/top_menu_bar"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        layout="@layout/top_menu_bar"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/bottom_menu_bar"/>
 
 </FrameLayout>

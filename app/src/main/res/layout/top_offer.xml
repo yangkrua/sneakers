@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:rowCount="2"
+    app:columnCount="3"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/top_offer_border">
+
+    <!-- Row 1 -->
+    <View
+        android:layout_height="1dp"
+        android:layout_width="10dp"
+        app:layout_gravity="center"
+        android:background="@android:color/darker_gray"/>
+
+    <View
+        android:layout_height="30dp"
+        android:layout_width="0.5dp"
+        app:layout_rowSpan="2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        app:layout_gravity="center"
+        android:text="$125"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Row 2 -->
+    <TextView
+        app:layout_gravity="center"
+        android:textSize="12sp"
+        android:text="TOP OFFER"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        app:layout_gravity="center"
+        android:textSize="12sp"
+        android:text="LOW PRICE"
+        android:fontFamily="sans-serif-medium"/>
+
+
+</android.support.v7.widget.GridLayout>
