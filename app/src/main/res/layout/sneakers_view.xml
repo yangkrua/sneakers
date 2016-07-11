@@ -4,4 +4,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.somsak.sneakers.SneakersView">
 
+    <include layout="@layout/top_menu_bar"/>
+
 </FrameLayout>
