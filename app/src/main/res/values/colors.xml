@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Green A400 -->
+    <color name="addButton">#00e676</color>
+    <!-- Green A500 -->
+    <color name="addButtonBorder">#4caf50</color>
 </resources>
